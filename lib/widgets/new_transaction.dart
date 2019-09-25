@@ -54,6 +54,7 @@ class _NewTransactionState extends State<NewTransaction> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      elevation: 5,
       child: Container(
         padding: EdgeInsets.all(10),
         child: Column(
@@ -85,7 +86,9 @@ class _NewTransactionState extends State<NewTransaction> {
                     textColor: Theme.of(context).primaryColor,
                     child: Text(
                       'Choose Date',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     onPressed: _presentDatePicker,
                   ),
