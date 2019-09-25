@@ -9,7 +9,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="expenses_app"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/expenses_app">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
